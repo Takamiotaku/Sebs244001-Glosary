@@ -1,0 +1,10 @@
+.Header-Container{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+    margin-top: 0;
+}
+.Main-Container{
+    margin-top: 0px;
+}
