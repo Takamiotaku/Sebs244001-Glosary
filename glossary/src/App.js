@@ -6,14 +6,19 @@ import { useState } from 'react';
 
 
 function App() {
+
+  // Constants that hold the current info about programing concept beggins null
   const [selectedInfo, setSelectedInfo] = useState(null);
   return (
     <div>
+      /* Header */
       <div className="Header-Container">
         <Header></Header>
       </div>
         <div className='Main-Container'>
-          <div className="Table-Container"><Table onInfoSelect={setSelectedInfo} /></div>
+         /* calls the component Table and passes the function setSelectedInfo as a paremeter */
+          <div className="Table-Container"><Table onInfoSelect={setSelectedInfo}/></div>
+          /* onece the selectedInfo changes the Glossary Displays the change */
           <div className='Glossary-Container'>{selectedInfo && <Glossary Title={selectedInfo.Title} Image={selectedInfo.Image} Text={selectedInfo.Text} />}</div>
         </div>
     </div>
