@@ -11,14 +11,14 @@ function App() {
   const [selectedInfo, setSelectedInfo] = useState(null);
   return (
     <div>
-      /* Header */
+      {/* Header */}
       <div className="Header-Container">
         <Header></Header>
       </div>
         <div className='Main-Container'>
-         /* calls the component Table and passes the function setSelectedInfo as a paremeter */
+         {/* calls the component Table and passes the function setSelectedInfo as a paremeter */}
           <div className="Table-Container"><Table onInfoSelect={setSelectedInfo}/></div>
-          /* onece the selectedInfo changes the Glossary Displays the change */
+          {/* onece the selectedInfo changes the Glossary Displays the change */}
           <div className='Glossary-Container'>{selectedInfo && <Glossary Title={selectedInfo.Title} Image={selectedInfo.Image} Text={selectedInfo.Text} />}</div>
         </div>
     </div>

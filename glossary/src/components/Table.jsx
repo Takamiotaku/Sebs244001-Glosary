@@ -17,7 +17,7 @@ export default function Table({ onInfoSelect }){
     return (
         <div>
             <p>Table</p>
-            /* Instance of a Button which changes the selected info to the choosen concept*/ 
+            {/* Instance of a Button which changes the selected info to the choosen concept*/ }
             <Pieces Title={Variable.Title} Fun={() => onInfoSelect(Variable)}/>
             <Pieces Title={Function.Title} Fun={() => onInfoSelect(Function)}/>
             <Pieces Title={Constant.Title} Fun={()=> onInfoSelect(Constant)}/>
