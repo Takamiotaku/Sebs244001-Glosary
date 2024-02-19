@@ -7,4 +7,17 @@
 }
 .Main-Container{
     margin-top: 0px;
+    display: flex;
+    height: 100%;
+
+}
+.Table-Container{
+    flex: 0.3;
+    background-color: darkblue;
+    height: 100%;
+}
+.Glossary-Container{
+    flex: 0.7;
+    background-color: red;
+    height: 100%;
 }
