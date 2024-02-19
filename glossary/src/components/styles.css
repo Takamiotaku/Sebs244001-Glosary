@@ -2,25 +2,36 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    background-color: grey;
+    background-color: #282828;
     margin-top: 0;
 }
 .Main-Container{
     margin-top: 0px;
     display: flex;
     height: 100%;
-
 }
 .Table-Container{
     flex: 0.3;
-    background-color: darkgrey;
+    background-color: #181818;
     height: 100%;
 }
 .Glossary-Container{
     flex: 0.7;
-    background-color: red;
+    background-color: #404040 ;
     height: 100%;
 }
 .Piece{
     margin-left: 10px;
+}
+Body{
+    background-color: #121212;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
 }

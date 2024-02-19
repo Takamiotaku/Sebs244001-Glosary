@@ -2,16 +2,17 @@ import React from "react";
 import './styles.css'
 import Pieces from "./Pieces";
 import Informations from "./Informations";
-
-
+import VarImage from '../assets/Variable.png'
+import FunImage from '../assets/Function.png'
+import ConImage from '../assets/Const.png'
 
 
 export default function Table({ onInfoSelect }){
 
     // Delecration fo concepts 
-    const Variable = new Informations("Variable","linktoimage","The variable is a piece of code that holds the data")
-    const Function = new Informations("Function","linkToImage","Function is a piece of code that you can save and run later")
-    const Constant = new Informations("Constant","Link to image","Constant is like a variable but it dosen't change")
+    const Variable = new Informations("Variable",VarImage,"The variable is a piece of code that holds the data")
+    const Function = new Informations("Function",FunImage,"Function is a piece of code that you can save and run later")
+    const Constant = new Informations("Constant",ConImage,"Constant is like a variable but it dosen't change")
     
     
     return (

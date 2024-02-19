@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 
 function App() {
-
   // Constants that hold the current info about programing concept beggins null
   const [selectedInfo, setSelectedInfo] = useState(null);
   return (
@@ -26,3 +25,12 @@ function App() {
 }
 
 export default App;
+
+
+
+let number = 5
+let string = "This is an example of variable"
+let bool = true
+let float = 3.4
+
+
