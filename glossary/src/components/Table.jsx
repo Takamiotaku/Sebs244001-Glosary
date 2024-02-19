@@ -10,9 +10,9 @@ import ConImage from '../assets/Const.png'
 export default function Table({ onInfoSelect }){
 
     // Delecration fo concepts 
-    const Variable = new Informations("Variable",VarImage,"The variable is a piece of code that holds the data","What is name of first variable","number","")
-    const Function = new Informations("Function",FunImage,"Function is a piece of code that you can save and run later","","")
-    const Constant = new Informations("Constant",ConImage,"Constant is like a variable but it dosen't change","","")
+    const Variable = new Informations("Variable",VarImage,"The variable is a piece of code that holds the data","What is name of first variable","number",)
+    const Function = new Informations("Function",FunImage,"Function is a piece of code that you can save and run later","What will this function return","sum of num1 and num2")
+    const Constant = new Informations("Constant",ConImage,"Constant is like a variable but it dosen't change","can Constant be changed Yes/No","No")
     
     
     return (

@@ -28,9 +28,3 @@ export default App;
 
 
 
-let number = 5
-let string = "This is an example of variable"
-let bool = true
-let float = 3.4
-
-
