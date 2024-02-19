@@ -18,7 +18,7 @@ function App() {
          {/* calls the component Table and passes the function setSelectedInfo as a paremeter */}
           <div className="Table-Container"><Table onInfoSelect={setSelectedInfo}/></div>
           {/* onece the selectedInfo changes the Glossary Displays the change */}
-          <div className='Glossary-Container'>{selectedInfo && <Glossary Title={selectedInfo.Title} Image={selectedInfo.Image} Text={selectedInfo.Text} />}</div>
+          <div className='Glossary-Container'>{selectedInfo && <Glossary Title={selectedInfo.Title} Image={selectedInfo.Image} Text={selectedInfo.Text} Question={selectedInfo.Question} Answer={selectedInfo.Answer} info={selectedInfo} />}</div>
         </div>
     </div>
   );
